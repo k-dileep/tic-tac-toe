@@ -25,10 +25,12 @@ boxes.forEach((box)=>{
         if(turnO==true)
         {
             box.innerText="O";
+            box.style.color="#CEEC97";
             turnO=false;
         }
         else{
             box.innerText="X";
+            box.style.color="#7A28CB";
             turnO=true;
         }
         box.disabled=true;
